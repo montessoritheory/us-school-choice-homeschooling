@@ -1,0 +1,17 @@
+survey_year,schooling_type,percent_of_students_age_5_to_17,standard_error,sample_size
+2016,"Public, assigned",69.9,0.6,13517
+2016,"Public, chosen",10.4,0.39,13517
+2016,Public charter,7.0,0.39,13517
+2016,"Private, Catholic",3.6,0.2,13517
+2016,"Private, other religious",3.1,0.22,13517
+2016,"Private, nonreligious",2.4,0.19,13517
+2016,Homeschooled,3.3,0.23,13517
+2016,Other or unknown,0.4,0.07,13517
+2019,"Public, assigned",69.7,0.5,15706
+2019,"Public, chosen",8.3,0.28,15706
+2019,Public charter,8.2,0.36,15706
+2019,"Private, Catholic",3.3,0.21,15706
+2019,"Private, other religious",4.0,0.29,15706
+2019,"Private, nonreligious",2.2,0.17,15706
+2019,Homeschooled,2.9,0.18,15706
+2019,Other or unknown,1.4,0.13,15706

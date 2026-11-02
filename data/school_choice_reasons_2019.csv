@@ -1,0 +1,73 @@
+survey_year,schooling_type,reason,percent_very_important,standard_error,sample_size
+2019,All who chose,Safety,71.1,0.86,6089
+2019,All who chose,Convenient location,25.3,0.87,6089
+2019,All who chose,Staff quality,78.6,0.78,6089
+2019,All who chose,Academic performance,52.6,0.96,6089
+2019,All who chose,Class size,36.8,1.13,6089
+2019,All who chose,Cost,26.6,1.0,6089
+2019,All who chose,Religious orientation,18.1,1.04,3299
+2019,All who chose,Curriculum focus,59.3,0.87,6089
+2019,All who chose,Extracurriculars,28.6,1.05,6089
+2019,All who chose,Student body,30.9,0.95,6089
+2019,All who chose,Special education,22.9,0.92,6089
+2019,All who chose,Special facilities,23.2,0.92,6089
+2019,"Public, chosen",Safety,71.1,2.14,878
+2019,"Public, chosen",Convenient location,17.5,2.44,878
+2019,"Public, chosen",Staff quality,81.5,1.74,878
+2019,"Public, chosen",Academic performance,55.5,2.48,878
+2019,"Public, chosen",Class size,33.0,2.64,878
+2019,"Public, chosen",Cost,22.1,2.41,878
+2019,"Public, chosen",Religious orientation,9.5,1.96,367
+2019,"Public, chosen",Curriculum focus,63.1,2.61,878
+2019,"Public, chosen",Extracurriculars,24.6,2.89,878
+2019,"Public, chosen",Student body,31.5,3.01,878
+2019,"Public, chosen",Special education,19.6,2.99,878
+2019,"Public, chosen",Special facilities,18.3,2.86,878
+2019,Public charter,Safety,74.8,2.27,604
+2019,Public charter,Convenient location,25.7,2.95,604
+2019,Public charter,Staff quality,80.4,2.56,604
+2019,Public charter,Academic performance,60.2,3.12,604
+2019,Public charter,Class size,41.1,2.83,604
+2019,Public charter,Cost,33.5,3.03,604
+2019,Public charter,Religious orientation,15.5,3.37,322
+2019,Public charter,Curriculum focus,67.4,2.67,604
+2019,Public charter,Extracurriculars,30.0,2.78,604
+2019,Public charter,Student body,31.9,2.98,604
+2019,Public charter,Special education,29.8,2.79,604
+2019,Public charter,Special facilities,30.8,3.41,604
+2019,"Private, Catholic",Safety,72.7,3.02,370
+2019,"Private, Catholic",Convenient location,20.6,2.74,370
+2019,"Private, Catholic",Staff quality,83.4,2.12,370
+2019,"Private, Catholic",Academic performance,55.1,3.46,370
+2019,"Private, Catholic",Class size,41.0,3.71,370
+2019,"Private, Catholic",Cost,26.4,3.5,370
+2019,"Private, Catholic",Religious orientation,33.3,3.78,363
+2019,"Private, Catholic",Curriculum focus,59.2,2.94,370
+2019,"Private, Catholic",Extracurriculars,28.0,2.55,370
+2019,"Private, Catholic",Student body,33.7,2.58,370
+2019,"Private, Catholic",Special education,10.7,2.0,370
+2019,"Private, Catholic",Special facilities,16.3,2.63,370
+2019,"Private, other religious",Safety,71.6,4.48,313
+2019,"Private, other religious",Convenient location,13.8,3.27,313
+2019,"Private, other religious",Staff quality,84.8,2.83,313
+2019,"Private, other religious",Academic performance,48.2,4.47,313
+2019,"Private, other religious",Class size,38.3,3.85,313
+2019,"Private, other religious",Cost,22.5,4.41,313
+2019,"Private, other religious",Religious orientation,45.6,5.07,310
+2019,"Private, other religious",Curriculum focus,57.1,4.57,313
+2019,"Private, other religious",Extracurriculars,23.1,4.0,313
+2019,"Private, other religious",Student body,35.1,4.27,313
+2019,"Private, other religious",Special education,13.9,3.73,313
+2019,"Private, other religious",Special facilities,15.7,3.21,313
+2019,"Private, nonreligious",Safety,68.0,3.96,318
+2019,"Private, nonreligious",Convenient location,12.7,3.06,318
+2019,"Private, nonreligious",Staff quality,84.4,5.35,318
+2019,"Private, nonreligious",Academic performance,50.8,5.29,318
+2019,"Private, nonreligious",Class size,47.6,4.66,318
+2019,"Private, nonreligious",Cost,10.5,2.03,318
+2019,"Private, nonreligious",Religious orientation,20.8,12.73,112
+2019,"Private, nonreligious",Curriculum focus,64.5,5.14,318
+2019,"Private, nonreligious",Extracurriculars,22.6,3.26,318
+2019,"Private, nonreligious",Student body,36.0,4.26,318
+2019,"Private, nonreligious",Special education,13.7,3.01,318
+2019,"Private, nonreligious",Special facilities,16.7,2.89,318

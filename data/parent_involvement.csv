@@ -1,0 +1,43 @@
+survey_year,schooling_group,activity,percent_of_parents,standard_error,sample_size
+2016,All enrolled students,Attended a school or class event,79.2,0.55,13523
+2016,All enrolled students,Volunteered at the school,41.7,0.66,13523
+2016,All enrolled students,Attended a general school meeting,85.4,0.52,13523
+2016,All enrolled students,Attended a PTO or PTA meeting,46.8,0.71,13523
+2016,All enrolled students,Attended a parent-teacher conference,77.6,0.54,13523
+2016,All enrolled students,Took part in fundraising,59.3,0.63,13523
+2016,All enrolled students,Served on a school committee,12.2,0.4,13523
+2016,Public,Attended a school or class event,77.8,0.61,11941
+2016,Public,Volunteered at the school,38.7,0.68,11941
+2016,Public,Attended a general school meeting,85.1,0.53,11941
+2016,Public,Attended a PTO or PTA meeting,45.7,0.74,11941
+2016,Public,Attended a parent-teacher conference,76.6,0.56,11941
+2016,Public,Took part in fundraising,57.4,0.7,11941
+2016,Public,Served on a school committee,10.6,0.41,11941
+2016,Private,Attended a school or class event,93.5,1.13,1522
+2016,Private,Volunteered at the school,71.0,1.97,1522
+2016,Private,Attended a general school meeting,89.9,1.52,1522
+2016,Private,Attended a PTO or PTA meeting,57.0,1.94,1522
+2016,Private,Attended a parent-teacher conference,87.4,1.21,1522
+2016,Private,Took part in fundraising,77.6,1.63,1522
+2016,Private,Served on a school committee,26.9,1.28,1522
+2019,All enrolled students,Attended a school or class event,79.2,0.54,15783
+2019,All enrolled students,Volunteered at the school,41.3,0.6,15783
+2019,All enrolled students,Attended a general school meeting,85.6,0.45,15783
+2019,All enrolled students,Attended a PTO or PTA meeting,47.4,0.63,15783
+2019,All enrolled students,Attended a parent-teacher conference,75.2,0.54,15783
+2019,All enrolled students,Took part in fundraising,56.5,0.54,15783
+2019,All enrolled students,Served on a school committee,12.1,0.41,15783
+2019,Public,Attended a school or class event,78.1,0.56,13881
+2019,Public,Volunteered at the school,38.5,0.59,13881
+2019,Public,Attended a general school meeting,84.9,0.47,13881
+2019,Public,Attended a PTO or PTA meeting,45.4,0.67,13881
+2019,Public,Attended a parent-teacher conference,74.0,0.6,13881
+2019,Public,Took part in fundraising,54.5,0.56,13881
+2019,Public,Served on a school committee,10.0,0.37,13881
+2019,Private,Attended a school or class event,90.8,1.25,1669
+2019,Private,Volunteered at the school,67.6,1.69,1669
+2019,Private,Attended a general school meeting,93.3,1.02,1669
+2019,Private,Attended a PTO or PTA meeting,64.7,2.17,1669
+2019,Private,Attended a parent-teacher conference,86.9,1.35,1669
+2019,Private,Took part in fundraising,77.1,1.72,1669
+2019,Private,Served on a school committee,31.0,2.04,1669
