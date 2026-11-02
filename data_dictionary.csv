@@ -1,0 +1,185 @@
+file,column,type,description,example
+homeschooling_rate.csv,survey_year,int,NHES survey year (2016 or 2019),2016
+homeschooling_rate.csv,characteristic,str,Characteristic the group belongs to,household_income
+homeschooling_rate.csv,group,str,Population group,"$0 to $10,000"
+homeschooling_rate.csv,percent_homeschooled,float,Weighted percent homeschooled,3.5
+homeschooling_rate.csv,standard_error,float,Jackknife standard error (80 JK1 replicate weights),0.88
+homeschooling_rate.csv,homeschooled_thousands,int,"Weighted number of homeschooled students, thousands",91
+homeschooling_rate.csv,sample_size,int,Unweighted number of sampled children or students behind the estimate,655
+homeschooling_reasons_and_practices.csv,survey_year,int,NHES survey year (2016 or 2019),2016
+homeschooling_reasons_and_practices.csv,measure,str,Kind of measure,Most important reason
+homeschooling_reasons_and_practices.csv,category,str,Category,Temporary illness
+homeschooling_reasons_and_practices.csv,percent_of_homeschooled_students,float,Weighted percent of homeschooled students,0.3
+homeschooling_reasons_and_practices.csv,standard_error,float,Jackknife standard error (80 JK1 replicate weights),0.24
+homeschooling_reasons_and_practices.csv,sample_size,int,Unweighted number of sampled children or students behind the estimate,508
+parent_involvement.csv,survey_year,int,NHES survey year (2016 or 2019),2016
+parent_involvement.csv,schooling_group,str,"Public, private or all enrolled students",Private
+parent_involvement.csv,activity,str,Activity,Attended a school or class event
+parent_involvement.csv,percent_of_parents,float,Weighted percent of parents who did the activity,93.5
+parent_involvement.csv,standard_error,float,Jackknife standard error (80 JK1 replicate weights),1.13
+parent_involvement.csv,sample_size,int,Unweighted number of sampled children or students behind the estimate,1522
+parent_satisfaction.csv,survey_year,int,NHES survey year (2016 or 2019),2016
+parent_satisfaction.csv,schooling_type,str,Type of schooling,"Private, other religious"
+parent_satisfaction.csv,aspect,str,Aspect of the school,School
+parent_satisfaction.csv,percent_very_satisfied,float,Weighted percent of parents very satisfied,80.5
+parent_satisfaction.csv,standard_error,float,Jackknife standard error (80 JK1 replicate weights),3.31
+parent_satisfaction.csv,sample_size,int,Unweighted number of sampled children or students behind the estimate,454
+school_choice_homeschooling_2016.csv,survey_year,int,NHES survey year (2016 or 2019),2016
+school_choice_homeschooling_2016.csv,student_id,int,"NCES student identifier (BASMID), unique within a survey year",20161073679
+school_choice_homeschooling_2016.csv,child_age,int,Child's age in years on December 31 of the year before the survey (NCES AGE2015 / AGE2018),7
+school_choice_homeschooling_2016.csv,grade,str,"Grade or grade equivalent, kindergarten to grade 12 (ALLGRADEX)",Grade 2
+school_choice_homeschooling_2016.csv,child_sex,str,Child's sex (CSEX),Female
+school_choice_homeschooling_2016.csv,child_race_ethnicity,str,"Child's race and ethnicity in 4 groups (RACEETHN 2016, RACEETH 2019, Asian, Pacific Islander and other or multiple races combined)",Hispanic
+school_choice_homeschooling_2016.csv,census_region,str,Census region of residence (CENREG),West
+school_choice_homeschooling_2016.csv,locale,str,NCES 12-category locale of the ZIP code (ZIPLOCL),"City, large"
+school_choice_homeschooling_2016.csv,locale_group,str,"City, Suburb, Town or Rural",City
+school_choice_homeschooling_2016.csv,parent_education,str,Highest education of the child's parents or guardians (PARGRADEX),Less than high school
+school_choice_homeschooling_2016.csv,household_income,str,"Total household income in 10 groups, the 2019 top groups combined into $150,001 or more (TTLHHINC)","$20,001 to $30,000"
+school_choice_homeschooling_2016.csv,household_income_detail,str,"Household income with the 2019 groups above $150,000 kept (TTLHHINC)","$20,001 to $30,000"
+school_choice_homeschooling_2016.csv,family_type,str,Parents and siblings in the household (FAMILY16X / FAMILY19X),Two parents and sibling(s)
+school_choice_homeschooling_2016.csv,parents_in_household,str,"Two parents, mother only, father only or nonparent guardians (HHPARN16X / HHPARN19X)",Two parents
+school_choice_homeschooling_2016.csv,parent1_work_status,str,Work status of the first parent or guardian (PAR1EMPL),Not in the labor force
+school_choice_homeschooling_2016.csv,home_language,str,Language the parents learned first or speak at home (LANGUAGEX),Non-English language
+school_choice_homeschooling_2016.csv,homeschooled,str,"Homeschooled under the NCES definition: homeschooled for all classes, or part time while enrolled in school 25 hours a week or less (2016) or 24 hours or less (2019), excluding homeschooling only for a temporary illness",No
+school_choice_homeschooling_2016.csv,homeschool_arrangement,str,"Full time or part time homeschooling (HMSCHLX 2016, HMSCHARR with SCHLHRSWK 2019)",Homeschooled full time
+school_choice_homeschooling_2016.csv,schooling_type,str,Type of schooling,"Public, assigned"
+school_choice_homeschooling_2016.csv,schooling_group,str,"Public, private or all enrolled students",Public
+school_choice_homeschooling_2016.csv,moved_to_attend_school,str,The family moved to its neighborhood so the child could attend the school (SNEIGHBRX),No
+school_choice_homeschooling_2016.csv,district_allows_choice,str,The district lets parents choose a public school (SPUBCHOIX),Yes
+school_choice_homeschooling_2016.csv,considered_other_schools,str,Parents considered other schools (SCONSIDR),Yes
+school_choice_homeschooling_2016.csv,school_is_first_choice,str,The school is the parents' first choice (S1STCHOI),Yes
+school_choice_homeschooling_2016.csv,choice_reason_safety_2019,float,"Importance of safety when choosing the school, asked in 2019 of parents who chose",
+school_choice_homeschooling_2016.csv,choice_reason_convenient_location_2019,float,"Importance of convenient location when choosing the school, asked in 2019 of parents who chose",
+school_choice_homeschooling_2016.csv,choice_reason_staff_quality_2019,float,"Importance of quality of teachers and staff when choosing the school, asked in 2019 of parents who chose",
+school_choice_homeschooling_2016.csv,choice_reason_academic_performance_2019,float,"Importance of academic performance when choosing the school, asked in 2019 of parents who chose",
+school_choice_homeschooling_2016.csv,choice_reason_class_size_2019,float,"Importance of number of students in classes when choosing the school, asked in 2019 of parents who chose",
+school_choice_homeschooling_2016.csv,choice_reason_cost_2019,float,"Importance of cost when choosing the school, asked in 2019 of parents who chose",
+school_choice_homeschooling_2016.csv,choice_reason_religious_orientation_2019,float,"Importance of religious orientation when choosing the school, asked in 2019 of parents who chose",
+school_choice_homeschooling_2016.csv,choice_reason_curriculum_focus_2019,float,"Importance of curriculum focus or courses when choosing the school, asked in 2019 of parents who chose",
+school_choice_homeschooling_2016.csv,choice_reason_extracurriculars_2019,float,"Importance of extracurricular options when choosing the school, asked in 2019 of parents who chose",
+school_choice_homeschooling_2016.csv,choice_reason_student_body_2019,float,"Importance of student body characteristics when choosing the school, asked in 2019 of parents who chose",
+school_choice_homeschooling_2016.csv,choice_reason_special_education_2019,float,"Importance of special education services when choosing the school, asked in 2019 of parents who chose",
+school_choice_homeschooling_2016.csv,choice_reason_special_facilities_2019,float,"Importance of special facilities when choosing the school, asked in 2019 of parents who chose",
+school_choice_homeschooling_2016.csv,satisfaction_school,str,Satisfaction with the school (FCSCHOOL),Very satisfied
+school_choice_homeschooling_2016.csv,satisfaction_teachers,str,Satisfaction with the teachers (FCTEACHR),Very satisfied
+school_choice_homeschooling_2016.csv,satisfaction_academic_standards,str,Satisfaction with academic standards (FCSTDS),Very satisfied
+school_choice_homeschooling_2016.csv,satisfaction_discipline,str,Satisfaction with order and discipline (FCORDER),Very satisfied
+school_choice_homeschooling_2016.csv,satisfaction_staff_parent_interaction,str,Satisfaction with the way staff interact with parents (FCSUPPRT),Somewhat satisfied
+school_choice_homeschooling_2016.csv,child_enjoys_school,str,My child enjoys school (SEENJOY),Agree
+school_choice_homeschooling_2016.csv,child_grades,str,Child's grades across subjects (SEGRADES),Mostly C's
+school_choice_homeschooling_2016.csv,repeated_a_grade,str,Child has repeated a grade (SEREPEAT),No
+school_choice_homeschooling_2016.csv,homework_hours_week,int,Hours a week spent on homework (FHWKHRS),10
+school_choice_homeschooling_2016.csv,parent_attended_school_event,str,A parent attended a school or class event this school year (FSSPORTX),Yes
+school_choice_homeschooling_2016.csv,parent_volunteered,str,A parent served as a volunteer (FSVOL),No
+school_choice_homeschooling_2016.csv,parent_attended_general_meeting,str,A parent attended a general school meeting (FSMTNG),Yes
+school_choice_homeschooling_2016.csv,parent_attended_pto_meeting,str,A parent attended a PTO or PTA meeting (FSPTMTNG),No
+school_choice_homeschooling_2016.csv,parent_attended_parent_teacher_conference,str,A parent attended a parent-teacher conference (FSATCNFN),No
+school_choice_homeschooling_2016.csv,parent_fundraising,str,A parent took part in fundraising (FSFUNDRS),Yes
+school_choice_homeschooling_2016.csv,parent_served_on_committee,str,A parent served on a school committee (FSCOMMTE),No
+school_choice_homeschooling_2016.csv,expected_education,str,"Parents' expectation for the child's education (SEFUTUREX, HSFUTUREX for 2016 homeschoolers)",Bachelor's degree
+school_choice_homeschooling_2016.csv,homeschool_reason_school_environment,str,"Homeschool reason, concern about the environment of other schools (HSSAFETYX)",Yes
+school_choice_homeschooling_2016.csv,homeschool_reason_dissatisfied_with_instruction,str,"Homeschool reason, dissatisfaction with academic instruction (HSDISSATX)",Yes
+school_choice_homeschooling_2016.csv,homeschool_reason_religious_instruction,str,"Homeschool reason, religious instruction (HSRELGON)",No
+school_choice_homeschooling_2016.csv,homeschool_reason_moral_instruction,str,"Homeschool reason, moral instruction (HSMORAL)",Yes
+school_choice_homeschooling_2016.csv,homeschool_reason_health_problem,str,"Homeschool reason, physical or mental health problem (HSDISABLX)",No
+school_choice_homeschooling_2016.csv,homeschool_reason_temporary_illness,str,"Homeschool reason, temporary illness (HSILLX)",No
+school_choice_homeschooling_2016.csv,homeschool_reason_special_needs,str,"Homeschool reason, other special needs (HSSPCLNDX)",No
+school_choice_homeschooling_2016.csv,homeschool_reason_nontraditional_approach,str,"Homeschool reason, a nontraditional approach to the child's education (HSALTX)",Yes
+school_choice_homeschooling_2016.csv,homeschool_reason_family_life_2019,float,"Homeschool reason, emphasis on family life together, 2019 only (HSFMLY)",
+school_choice_homeschooling_2016.csv,homeschool_reason_bullying_2019,float,"Homeschool reason, bullying, 2019 only (HSBULLY)",
+school_choice_homeschooling_2016.csv,homeschool_reason_other,str,"Homeschool reason, other (HSOTHERX)",Yes
+school_choice_homeschooling_2016.csv,homeschool_most_important_reason,str,"Most important reason for homeschooling (HSMOSTX, mapped by label)",Nontraditional approach
+school_choice_homeschooling_2016.csv,homeschool_teaching_style,str,Formal curriculum or informal learning (HSSTYL),Mostly formal curriculum
+school_choice_homeschooling_2016.csv,homeschool_coop_instruction,str,Some instruction comes from a homeschool group or co-op (HSCOOP),No
+school_choice_homeschooling_2016.csv,homeschool_organization_member,str,Member of a homeschool organization (HSNATL),No
+school_choice_homeschooling_2016.csv,homeschool_online_instruction,str,Some homeschool instruction is online (HSINTNET),No
+school_choice_homeschooling_2016.csv,homeschool_online_share_2019,float,"Share of courses taken online, 2019 only (HSINTNET)",
+school_choice_homeschooling_2016.csv,final_weight,float,NCES final weight. Use it for national estimates and the replicate weights for standard errors (FEWT / FPWT),6771.3262
+school_choice_homeschooling_2019.csv,survey_year,int,NHES survey year (2016 or 2019),2019
+school_choice_homeschooling_2019.csv,student_id,int,"NCES student identifier (BASMID), unique within a survey year",20191075941
+school_choice_homeschooling_2019.csv,child_age,int,Child's age in years on December 31 of the year before the survey (NCES AGE2015 / AGE2018),9
+school_choice_homeschooling_2019.csv,grade,str,"Grade or grade equivalent, kindergarten to grade 12 (ALLGRADEX)",Grade 4
+school_choice_homeschooling_2019.csv,child_sex,str,Child's sex (CSEX),Female
+school_choice_homeschooling_2019.csv,child_race_ethnicity,str,"Child's race and ethnicity in 4 groups (RACEETHN 2016, RACEETH 2019, Asian, Pacific Islander and other or multiple races combined)","White, non-Hispanic"
+school_choice_homeschooling_2019.csv,census_region,str,Census region of residence (CENREG),Northeast
+school_choice_homeschooling_2019.csv,locale,str,NCES 12-category locale of the ZIP code (ZIPLOCL),"Suburb, large"
+school_choice_homeschooling_2019.csv,locale_group,str,"City, Suburb, Town or Rural",Suburb
+school_choice_homeschooling_2019.csv,parent_education,str,Highest education of the child's parents or guardians (PARGRADEX),Vocational/technical or some college
+school_choice_homeschooling_2019.csv,household_income,str,"Total household income in 10 groups, the 2019 top groups combined into $150,001 or more (TTLHHINC)","$60,001 to $75,000"
+school_choice_homeschooling_2019.csv,household_income_detail,str,"Household income with the 2019 groups above $150,000 kept (TTLHHINC)","$60,001 to $75,000"
+school_choice_homeschooling_2019.csv,family_type,str,Parents and siblings in the household (FAMILY16X / FAMILY19X),Two parents and sibling(s)
+school_choice_homeschooling_2019.csv,parents_in_household,str,"Two parents, mother only, father only or nonparent guardians (HHPARN16X / HHPARN19X)",Two parents
+school_choice_homeschooling_2019.csv,parent1_work_status,str,Work status of the first parent or guardian (PAR1EMPL),Not in the labor force
+school_choice_homeschooling_2019.csv,home_language,str,Language the parents learned first or speak at home (LANGUAGEX),English (both or only parent)
+school_choice_homeschooling_2019.csv,homeschooled,str,"Homeschooled under the NCES definition: homeschooled for all classes, or part time while enrolled in school 25 hours a week or less (2016) or 24 hours or less (2019), excluding homeschooling only for a temporary illness",No
+school_choice_homeschooling_2019.csv,homeschool_arrangement,str,"Full time or part time homeschooling (HMSCHLX 2016, HMSCHARR with SCHLHRSWK 2019)",Homeschooled full time
+school_choice_homeschooling_2019.csv,schooling_type,str,Type of schooling,"Public, assigned"
+school_choice_homeschooling_2019.csv,schooling_group,str,"Public, private or all enrolled students",Public
+school_choice_homeschooling_2019.csv,moved_to_attend_school,str,The family moved to its neighborhood so the child could attend the school (SNEIGHBRX),Yes
+school_choice_homeschooling_2019.csv,district_allows_choice,str,The district lets parents choose a public school (SPUBCHOIX),No
+school_choice_homeschooling_2019.csv,considered_other_schools,str,Parents considered other schools (SCONSIDR),No
+school_choice_homeschooling_2019.csv,school_is_first_choice,str,The school is the parents' first choice (S1STCHOI),Yes
+school_choice_homeschooling_2019.csv,choice_reason_safety_2019,str,"Importance of safety when choosing the school, asked in 2019 of parents who chose",Very important
+school_choice_homeschooling_2019.csv,choice_reason_convenient_location_2019,str,"Importance of convenient location when choosing the school, asked in 2019 of parents who chose",Somewhat important
+school_choice_homeschooling_2019.csv,choice_reason_staff_quality_2019,str,"Importance of quality of teachers and staff when choosing the school, asked in 2019 of parents who chose",Very important
+school_choice_homeschooling_2019.csv,choice_reason_academic_performance_2019,str,"Importance of academic performance when choosing the school, asked in 2019 of parents who chose",Important
+school_choice_homeschooling_2019.csv,choice_reason_class_size_2019,str,"Importance of number of students in classes when choosing the school, asked in 2019 of parents who chose",Important
+school_choice_homeschooling_2019.csv,choice_reason_cost_2019,str,"Importance of cost when choosing the school, asked in 2019 of parents who chose",Not at all important
+school_choice_homeschooling_2019.csv,choice_reason_religious_orientation_2019,str,"Importance of religious orientation when choosing the school, asked in 2019 of parents who chose",Somewhat important
+school_choice_homeschooling_2019.csv,choice_reason_curriculum_focus_2019,str,"Importance of curriculum focus or courses when choosing the school, asked in 2019 of parents who chose",Somewhat important
+school_choice_homeschooling_2019.csv,choice_reason_extracurriculars_2019,str,"Importance of extracurricular options when choosing the school, asked in 2019 of parents who chose",Somewhat important
+school_choice_homeschooling_2019.csv,choice_reason_student_body_2019,str,"Importance of student body characteristics when choosing the school, asked in 2019 of parents who chose",Somewhat important
+school_choice_homeschooling_2019.csv,choice_reason_special_education_2019,str,"Importance of special education services when choosing the school, asked in 2019 of parents who chose",Not at all important
+school_choice_homeschooling_2019.csv,choice_reason_special_facilities_2019,str,"Importance of special facilities when choosing the school, asked in 2019 of parents who chose",Not at all important
+school_choice_homeschooling_2019.csv,satisfaction_school,str,Satisfaction with the school (FCSCHOOL),Very satisfied
+school_choice_homeschooling_2019.csv,satisfaction_teachers,str,Satisfaction with the teachers (FCTEACHR),Very satisfied
+school_choice_homeschooling_2019.csv,satisfaction_academic_standards,str,Satisfaction with academic standards (FCSTDS),Very satisfied
+school_choice_homeschooling_2019.csv,satisfaction_discipline,str,Satisfaction with order and discipline (FCORDER),Very satisfied
+school_choice_homeschooling_2019.csv,satisfaction_staff_parent_interaction,str,Satisfaction with the way staff interact with parents (FCSUPPRT),Very satisfied
+school_choice_homeschooling_2019.csv,child_enjoys_school,str,My child enjoys school (SEENJOY),Strongly agree
+school_choice_homeschooling_2019.csv,child_grades,str,Child's grades across subjects (SEGRADES),Mostly A's
+school_choice_homeschooling_2019.csv,repeated_a_grade,str,Child has repeated a grade (SEREPEAT),No
+school_choice_homeschooling_2019.csv,homework_hours_week,int,Hours a week spent on homework (FHWKHRS),3
+school_choice_homeschooling_2019.csv,parent_attended_school_event,str,A parent attended a school or class event this school year (FSSPORTX),Yes
+school_choice_homeschooling_2019.csv,parent_volunteered,str,A parent served as a volunteer (FSVOL),No
+school_choice_homeschooling_2019.csv,parent_attended_general_meeting,str,A parent attended a general school meeting (FSMTNG),Yes
+school_choice_homeschooling_2019.csv,parent_attended_pto_meeting,str,A parent attended a PTO or PTA meeting (FSPTMTNG),No
+school_choice_homeschooling_2019.csv,parent_attended_parent_teacher_conference,str,A parent attended a parent-teacher conference (FSATCNFN),Yes
+school_choice_homeschooling_2019.csv,parent_fundraising,str,A parent took part in fundraising (FSFUNDRS),Yes
+school_choice_homeschooling_2019.csv,parent_served_on_committee,str,A parent served on a school committee (FSCOMMTE),No
+school_choice_homeschooling_2019.csv,expected_education,str,"Parents' expectation for the child's education (SEFUTUREX, HSFUTUREX for 2016 homeschoolers)",Two or more years of college
+school_choice_homeschooling_2019.csv,homeschool_reason_school_environment,str,"Homeschool reason, concern about the environment of other schools (HSSAFETYX)",No
+school_choice_homeschooling_2019.csv,homeschool_reason_dissatisfied_with_instruction,str,"Homeschool reason, dissatisfaction with academic instruction (HSDISSATX)",Yes
+school_choice_homeschooling_2019.csv,homeschool_reason_religious_instruction,str,"Homeschool reason, religious instruction (HSRELGON)",No
+school_choice_homeschooling_2019.csv,homeschool_reason_moral_instruction,str,"Homeschool reason, moral instruction (HSMORAL)",No
+school_choice_homeschooling_2019.csv,homeschool_reason_health_problem,str,"Homeschool reason, physical or mental health problem (HSDISABLX)",Yes
+school_choice_homeschooling_2019.csv,homeschool_reason_temporary_illness,str,"Homeschool reason, temporary illness (HSILLX)",No
+school_choice_homeschooling_2019.csv,homeschool_reason_special_needs,str,"Homeschool reason, other special needs (HSSPCLNDX)",Yes
+school_choice_homeschooling_2019.csv,homeschool_reason_nontraditional_approach,str,"Homeschool reason, a nontraditional approach to the child's education (HSALTX)",No
+school_choice_homeschooling_2019.csv,homeschool_reason_family_life_2019,str,"Homeschool reason, emphasis on family life together, 2019 only (HSFMLY)",No
+school_choice_homeschooling_2019.csv,homeschool_reason_bullying_2019,str,"Homeschool reason, bullying, 2019 only (HSBULLY)",No
+school_choice_homeschooling_2019.csv,homeschool_reason_other,str,"Homeschool reason, other (HSOTHERX)",No
+school_choice_homeschooling_2019.csv,homeschool_most_important_reason,str,"Most important reason for homeschooling (HSMOSTX, mapped by label)",Special needs
+school_choice_homeschooling_2019.csv,homeschool_teaching_style,str,Formal curriculum or informal learning (HSSTYL),Mostly informal learning
+school_choice_homeschooling_2019.csv,homeschool_coop_instruction,str,Some instruction comes from a homeschool group or co-op (HSCOOP),No
+school_choice_homeschooling_2019.csv,homeschool_organization_member,str,Member of a homeschool organization (HSNATL),No
+school_choice_homeschooling_2019.csv,homeschool_online_instruction,str,Some homeschool instruction is online (HSINTNET),Yes
+school_choice_homeschooling_2019.csv,homeschool_online_share_2019,str,"Share of courses taken online, 2019 only (HSINTNET)",All courses online
+school_choice_homeschooling_2019.csv,final_weight,float,NCES final weight. Use it for national estimates and the replicate weights for standard errors (FEWT / FPWT),1242.1009
+school_choice_reasons_2019.csv,survey_year,int,NHES survey year (2016 or 2019),2019
+school_choice_reasons_2019.csv,schooling_type,str,Type of schooling,Public charter
+school_choice_reasons_2019.csv,reason,str,Reason for choosing the school,Safety
+school_choice_reasons_2019.csv,percent_very_important,float,Weighted percent rating it very important,74.8
+school_choice_reasons_2019.csv,standard_error,float,Jackknife standard error (80 JK1 replicate weights),2.27
+school_choice_reasons_2019.csv,sample_size,int,Unweighted number of sampled children or students behind the estimate,604
+schooling_type.csv,survey_year,int,NHES survey year (2016 or 2019),2016
+schooling_type.csv,schooling_type,str,Type of schooling,"Private, nonreligious"
+schooling_type.csv,percent_of_students_age_5_to_17,float,Weighted percent of students aged 5 to 17,2.4
+schooling_type.csv,standard_error,float,Jackknife standard error (80 JK1 replicate weights),0.19
+schooling_type.csv,sample_size,int,Unweighted number of sampled children or students behind the estimate,13517
+replicate_weights_2016.csv,survey_year,int,NHES survey year,2019
+replicate_weights_2016.csv,student_id,str,"Identifier, join key with the main file together with survey_year",
+replicate_weights_2016.csv,FPWT1 ... FPWT80,float,The 80 jackknife (JK1) replicate weights. SE = sqrt(79/80 * sum((estimate_r - estimate)^2)),
+replicate_weights_2019.csv,survey_year,int,NHES survey year,2019
+replicate_weights_2019.csv,student_id,str,"Identifier, join key with the main file together with survey_year",
+replicate_weights_2019.csv,FPWT1 ... FPWT80,float,The 80 jackknife (JK1) replicate weights. SE = sqrt(79/80 * sum((estimate_r - estimate)^2)),

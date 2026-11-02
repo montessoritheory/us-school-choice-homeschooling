@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below, and credit the original NCES source."
+type: dataset
+title: "US School Choice and Homeschooling, 2016 and 2019"
+version: "1.0"
+date-released: 2026-11-02
+license: CC-BY-4.0
+authors:
+  - family-names: Carter
+    given-names: Sophia
+  - name: Montessori Theory
+    website: "https://www.montessori-theory.com/"
+repository-code: "https://github.com/montessoritheory/us-school-choice-homeschooling"
+url: "https://www.montessori-theory.com/"
+abstract: "Type of schooling (assigned or chosen public, charter, private, homeschool), reasons for choosing a school and for homeschooling, parent satisfaction and involvement for 30,521 US students in kindergarten to grade 12, harmonized from the 2016 and 2019 NCES Parent and Family Involvement in Education public-use files, with weights and replicate weights."
+keywords: [homeschooling, school choice, charter schools, private schools, parent involvement, NCES, NHES, United States]
+references:
+  - type: data
+    title: "U.S. Department of Education, NCES, National Household Education Surveys, Parent and Family Involvement in Education survey, public-use files 2016 and 2019"
+    authors:
+      - name: "U.S. Department of Education, National Center for Education Statistics"
+    url: "https://nces.ed.gov/nhes/dataproducts.asp"
